@@ -1,1 +1,1 @@
-cryptography>=1.0.0
+mnemonic>=0.20
