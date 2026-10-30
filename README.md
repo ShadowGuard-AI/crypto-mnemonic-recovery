@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # crypto-mnemonic-recovery
 Recovers a BIP39 mnemonic phrase from potentially corrupted or partial seeds using fuzzy matching and statistical analysis. Can attempt reconstruction with missing words or incorrect checksums. - Focused on Basic cryptographic operations
 
