@@ -67,6 +67,11 @@ def generate_all_possible_mnemonics(partial_mnemonic: str, missing_count: int, l
 
     def generate_recursive(index: int) -> Iterator[str]:
         if index == len(unknown_indices):
+            # current_mnemonic is one shared list that the loops below
+            # keep mutating. This is safe only because the join copies
+            # it into a string at the moment of the yield. If this ever
+            # yielded the list itself, every result a caller held would
+            # silently turn into whatever the search tried last.
             yield " ".join(current_mnemonic)
             return
         unknown_index = unknown_indices[index]
@@ -90,6 +95,11 @@ def is_valid_mnemonic(mnemonic_phrase: str, language: str) -> bool:
     """
 
     Mnemonic = _load_mnemonic_class()
+    # A fresh Mnemonic is built on every call, and main calls this once
+    # per candidate, so the wordlist is loaded again for each of what
+    # can be millions of checks. It is the main cost of a long search
+    # after the checksum itself, and I leave it because hoisting the
+    # object would change this function's standalone shape.
     mnemo = Mnemonic(language)
     # check(), not to_seed(): to_seed derives a seed from any string of
     # wordlist words without verifying the checksum, so the old version
