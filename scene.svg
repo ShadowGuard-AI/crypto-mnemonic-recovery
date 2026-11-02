@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="The tower through one watch in three bands: cloud drifting and thinning over the louvres in the far band, still bells and owls turning their heads and blinking in the middle band, and the moonlight blade widening and narrowing across the floorboards in the near band">
+<rect width="900" height="300" fill="#241d16"/>
+<rect width="900" height="96" fill="#46543e"/>
+<g fill="#171310"><rect x="70" y="0" width="18" height="100"/><rect x="250" y="0" width="18" height="100"/><rect x="430" y="0" width="18" height="100"/><rect x="610" y="0" width="18" height="100"/><rect x="790" y="0" width="18" height="100"/></g>
+<circle cx="700" cy="42" r="24" fill="#e2e6d2"/>
+<ellipse cx="660" cy="36" rx="86" ry="20" fill="#39443a"><animate attributeName="cx" values="660; 716; 660" dur="24s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.95; 0.55; 0.95" dur="24s" repeatCount="indefinite"/></ellipse>
+<rect x="180" y="118" width="540" height="14" fill="#38291b"/>
+<g fill="#645e54"><polygon points="330,196 344,140 376,140 390,196"/><polygon points="520,196 534,140 566,140 580,196"/></g>
+<g stroke="#96805e" stroke-width="4"><line x1="360" y1="200" x2="360" y2="262"/><line x1="550" y1="200" x2="550" y2="262"/></g>
+<rect x="600" y="150" width="270" height="12" fill="#38291b"/>
+<g>
+<g><ellipse cx="668" cy="128" rx="24" ry="26" fill="#e2d0b2"/><circle cx="660" cy="126" r="4.6" fill="#d4af37"/><circle cx="677" cy="126" r="4.6" fill="#d4af37"/><rect x="642" y="106" width="52" height="10" fill="#241d16" opacity="0"><animate attributeName="opacity" values="0; 0; 1; 0; 0" keyTimes="0; 0.82; 0.86; 0.9; 1" dur="11s" repeatCount="indefinite"/></rect>
+<animateTransform attributeName="transform" type="rotate" values="0 668 128; 14 668 128; 14 668 128; -10 668 128; 0 668 128" dur="16s" repeatCount="indefinite"/></g>
+<polygon points="644,150 692,150 684,196 652,196" fill="#7a5a3a"/>
+<g><ellipse cx="800" cy="128" rx="24" ry="26" fill="#e2d0b2"/><circle cx="792" cy="126" r="4.6" fill="#d4af37"/><circle cx="809" cy="126" r="4.6" fill="#d4af37"/><rect x="774" y="106" width="52" height="10" fill="#241d16" opacity="0"><animate attributeName="opacity" values="0; 0; 1; 0; 0" keyTimes="0; 0.6; 0.64; 0.68; 1" dur="17s" repeatCount="indefinite"/></rect>
+<animateTransform attributeName="transform" type="rotate" values="0 800 128; -12 800 128; -12 800 128; 8 800 128; 0 800 128" dur="19s" repeatCount="indefinite"/></g>
+<polygon points="776,150 824,150 816,196 784,196" fill="#7a5a3a"/>
+</g>
+<g fill="#54402a"><rect x="0" y="238" width="900" height="14"/><rect x="0" y="258" width="900" height="14"/><rect x="0" y="278" width="900" height="14"/></g>
+<polygon points="520,120 590,120 470,300 360,300" fill="#d6e0cd" opacity="0.10"><animate attributeName="opacity" values="0.07; 0.16; 0.07" dur="24s" repeatCount="indefinite"/></polygon>
+<g fill="#6e5c46"><ellipse cx="140" cy="252" rx="22" ry="9"/><ellipse cx="300" cy="272" rx="22" ry="9"/><ellipse cx="760" cy="252" rx="22" ry="9"/></g>
+</svg>
