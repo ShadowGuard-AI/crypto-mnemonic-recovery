@@ -33,6 +33,10 @@ python3 main.py --partial_mnemonic "abandon abandon abandon abandon abandon aban
 - `--max_attempts`: Maximum candidates to check before stopping (default: 10000).
 - `--debug`: Enable debug logging.
 
+## Verified run note
+
+`--help` was verified live in this wave. A full recovery run is blocked here because the `mnemonic` package is not installed, and installs are forbidden in this wave; no recovery result is claimed.
+
 ## License
 
-Copyright (c) ShadowStrikeHQ
+Licensed under the terms in LICENSE.
